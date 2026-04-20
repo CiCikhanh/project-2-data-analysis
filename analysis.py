@@ -25,3 +25,9 @@ plt.xlabel("Sleep Hours")
 plt.ylabel("Energy Level")
 plt.title("Sleep vs Energy")
 plt.show()
+if correlation > 0.7:
+    print("👉 Strong positive relationship: more sleep = more energy")
+elif correlation > 0.3:
+    print("👉 Moderate relationship between sleep and energy")
+else:
+    print("👉 Weak or no clear relationship")
